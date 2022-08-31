@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -11,24 +11,22 @@
 
 <body>
     <div class="header white-text center-align">
-        <h1>تست سرعت سنجش تایپ</h1>
-
-        <a href="type_speed_en.html" class="btn">English</a>
+        <h1>Type speed tester</h1>
+        <a href="type_speed_fa.html" class="btn">فارسی</a>
     </div>
     <div class="main">
         <section class="desc white-text center-align">
-            <p>
-                فرایند سنجش سرعت تایپ که با شروع تایپ کاربر، شمارشگر شروع به کار میکند وبا تایپ هر حرف، متن تایپ شده با متن نمایش داده شده مطابقت داده میشود .</p>
+            <p>The process of measuring the typing speed, when the user starts typing, the counter starts working and when typing each letter, the typed text is matched with the displayed text.</p>
         </section>
         <section class="content center-align">
             <div>
                 <table>
                     <tr>
                         <td>
-                            <p>متن الگو:</p>
+                            <p>Sample:</p>
                         </td>
                         <td class="sample_text">
-                            <p dir="auto" id="sample_text">دلتا زمینی مثلثی شکل که از آبرفت رودخانه به وجود آمده است.</p>
+                            <p dir="auto" id="sample_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maiores ab dolor.</p>
                         </td>
                     </tr>
 
@@ -37,30 +35,29 @@
 
 
             <div>
-                <textarea value="" name="user_input" dir="auto" placeholder="اینجا تایپ کنید" id="user_input" rows="5" cols="auto"></textarea>
+                <textarea value="" name="user_input" dir="auto" placeholder="type hear !!!" id="user_input" rows="5" cols="auto"></textarea>
             </div>
             <table>
-                <tr dir="rtl">
+                <tr dir="ltr">
                     <td>
                         <p id="timer">00:00:00 </p>
                     </td>
                     <td></td>
-                    <td><button class="btn" id="reset">ریست</button></td>
+                    <td><button class="btn" id="reset">reset</button></td>
 
                 </tr>
             </table>
-
         </section>
 
     </div>
     <div class="footer center-align">
 
-        <p class="result white-text" dir="rtl">
-            <span>سرعت تایپ : </span>
+        <p class="result white-text" dir="ltr">
+            <span>type speed: </span>
             <span id="result">0</span>
-            <span id="yeka">  کاراکتر در دقیقه</span>
+            <span id="yeka"> char in min</span>
         </p>
-        <p>طراحی : وحید محمدی</p>
+        <p>design by Vaeid Mo</p>
     </div>
 </body>
 <script src="js/custom.js"></script>
