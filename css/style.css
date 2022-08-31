@@ -1,0 +1,67 @@
+body:lang(en) {
+    font-family: 'Times New Roman', 'B titr', serif;
+}
+
+body:lang(fa) {
+    font-family: 'B titr', 'Times New Roman', serif;
+}
+
+.header {
+    height: 150px;
+    background-color: #0aa1dd;
+}
+
+.center-align {
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+.desc {
+    background-color: #79dae8;
+}
+
+.white-text {
+    color: white;
+}
+
+.content {
+    background-color: e8f9fd;
+}
+
+.footer {
+    background-color: blue;
+}
+
+.sample_text {
+    font-family: 'Courier New', Courier, monospace, 'B Titr';
+    background-color: antiquewhite;
+}
+
+#user_input {
+    border: grey 10px solid;
+    width: 70%;
+}
+
+.btn {
+    border-radius: 20px;
+    border: #0aa1dd 2px solid;
+    background-color: white;
+    font-family: B Titr;
+    padding: 0px 15px 0px 15px;
+    display: inline;
+    color: #0aa1dd;
+}
+
+.btn:hover {
+    background-color: #0aa1dd;
+    color: white;
+}
+
+#timer {
+    font-family: Times;
+    font-size: 25px;
+}
+
+.result {
+    padding: 10px;
+}
